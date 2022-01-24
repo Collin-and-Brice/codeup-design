@@ -14,12 +14,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Anton, sans-serif;
 }
 
-h6{
-    font-size: .6em;
-    padding-top: .5em;
-    padding-right: .04em;
-}
-
 .xs-top-nav {
     display: flex;
     justify-content: center;
@@ -103,18 +97,30 @@ h6{
 
 .btn-red {
     background-color: #E6563B;
+    font-size: .6em;
+    padding-top: .5em;
+    padding-right: .04em;
 }
 
 .btn-orange {
     background-color: #EB9D3A;
+    font-size: .6em;
+    padding-top: .5em;
+    padding-right: .04em;
 }
 
 .btn-green {
     background-color: #7CB06C;
+    font-size: .6em;
+    padding-top: .5em;
+    padding-right: .04em;
 }
 
 .btn-blue {
-    background-color: #00ABA9
+    background-color: #00ABA9;
+    font-size: .6em;
+    padding-top: .5em;
+    padding-right: .04em;
 }
 
 .work {
@@ -145,6 +151,7 @@ h6{
 
 .projects p {
     margin-right: auto;
+    font-size: smaller;
 }
 
 .proj-img {
@@ -155,16 +162,41 @@ h6{
     margin-bottom: .5em;
 }
 
+.news-bar {
+    padding-left: 3em;
+}
+
 .news {
     padding-top: .5em;
+    margin-bottom: 1em;
+}
+
+.news h6 {
+    padding-left: 5px;
+    line-height: 25px;
+    margin-bottom: 0;
 }
 
 .news-img {
     margin: 0;
     padding: 0;
-    height: 60px;
+    height: 50px;
     border: 2px solid #f0f0f0;
     border-radius: 5px;
+}
+
+.twitter-logo {
+    color: #1DA1F2;
+    margin-right: .5em;
+}
+
+.tweet {
+    margin-top: 3em;
+    line-height: 1.2;
+}
+
+.tweet p {
+    padding-right: 1em;
 }
 
 @media screen and (max-width:425px) {
@@ -218,6 +250,9 @@ h6{
     .news-bar {
         display: none;
     }
+    .med-ul {
+        display: none;
+    }
 }
 
 @media screen and (min-width:768px) {
@@ -231,4 +266,32 @@ h6{
     .work {
         text-align: left;
     }
-}
+    .xs-logo-bg {
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .xs-top-nav>div:nth-of-type(3) {
+        position: absolute;
+        top: 3.5em;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .xs-top-nav>div:nth-of-type(3) ul {
+        text-align: center;
+    }
+    .xs-top-nav>div:nth-of-type(3) li:nth-of-type(2) {
+        flex-grow: 0;
+        padding-right: 0;
+    }
+    .xs-top-nav>div:nth-of-type(3) li:nth-of-type(3) {
+        flex-grow: 0;
+    }
+    .xs-top-nav>div:nth-of-type(2) {
+        position: absolute;
+        top: 2.5em;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .xs-top-nav>div:nth-of-type(2)>p {
+        margin-left: 3.2em;
+    }
