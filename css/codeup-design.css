@@ -260,38 +260,48 @@ h1, h2, h3, h4, h5, h6 {
         margin-left: 1em;
         margin-right: 1em;
     }
+
     hr.divider {
         width: 100%;
     }
+
     .work {
         text-align: left;
     }
+
     .xs-logo-bg {
         justify-content: flex-start;
         align-items: center;
     }
-    .xs-top-nav>div:nth-of-type(3) {
+
+    .xs-top-nav > div:nth-of-type(3) {
         position: absolute;
         top: 3.5em;
         display: flex;
         justify-content: space-evenly;
     }
-    .xs-top-nav>div:nth-of-type(3) ul {
+
+    .xs-top-nav > div:nth-of-type(3) ul {
         text-align: center;
     }
-    .xs-top-nav>div:nth-of-type(3) li:nth-of-type(2) {
+
+    .xs-top-nav > div:nth-of-type(3) li:nth-of-type(2) {
         flex-grow: 0;
         padding-right: 0;
     }
-    .xs-top-nav>div:nth-of-type(3) li:nth-of-type(3) {
+
+    .xs-top-nav > div:nth-of-type(3) li:nth-of-type(3) {
         flex-grow: 0;
     }
-    .xs-top-nav>div:nth-of-type(2) {
+
+    .xs-top-nav > div:nth-of-type(2) {
         position: absolute;
         top: 2.5em;
         display: flex;
         justify-content: flex-start;
     }
-    .xs-top-nav>div:nth-of-type(2)>p {
+
+    .xs-top-nav > div:nth-of-type(2) > p {
         margin-left: 3.2em;
     }
+}
